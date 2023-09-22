@@ -1,5 +1,5 @@
 -- Copyright (C) 2023 EligoVision Ltd.
--- File: Stand.lua
+-- File: physics_util.lua
 
 local logger = set_lua_logger("viexp.util")
 
@@ -18,7 +18,7 @@ local function createCollisionShape(node, createDebugNode)
 		local v1, v2 = bb:min(), bb:max()
 
 		local internalMatrix = osg.computeLocalToWorld(geometry:getParentalNodePaths(node):at(0))
-		v1, v2 = v1*internalMatrix, v2*internalMatrix
+		-- v1, v2 = v1*internalMatrix, v2*internalMatrix
 
 		local dims = (v2 - v1)/2
 		local center = v1 + dims
@@ -26,6 +26,11 @@ local function createCollisionShape(node, createDebugNode)
 		dims:y(math.abs(dims:y()))
 		dims:z(math.abs(dims:z()))
 		-- logger:debug("dims = " .. dims:x(), ", ", dims:y(), ", ", dims:z())
+
+
+		center = center*internalMatrix
+		local rotation = internalMatrix:getRotate()
+		local dbgRotation = rotation
 
 		local physShape, dgbShape
 
@@ -41,7 +46,7 @@ local function createCollisionShape(node, createDebugNode)
 				r:makeRotate(math.pi/2, osg.Vec3(0.0, 1.0, 0.0))
 
 				dbgShape = osg.Cylinder(center, radius, height)
-				dbgShape:setRotation(r)
+				dbgRotation = r*dbgRotation
 			end
 		elseif string.find(name, "Cylinder") then
 			logger:info("Suppose this is CylinderZ!")
@@ -60,6 +65,7 @@ local function createCollisionShape(node, createDebugNode)
 			if osgCompositeShape then
 				-- Debug visualization
 				dbgShape = osg.Sphere(center, radius)
+				dbgRotation = nil		-- not rotation
 			end
 		elseif string.find(name, "Capsule") then
 			logger:info("Suppose this is CapsuleZ!")
@@ -82,8 +88,11 @@ local function createCollisionShape(node, createDebugNode)
 			end
 		end
 
-		compoundShape:addChildShape(bt.Transform(zeroQuat, bt.osg2bt(center)), collisionShape)
+		compoundShape:addChildShape(bt.Transform(bt.osg2bt(rotation), bt.osg2bt(center)), collisionShape)
 		if dbgShape then
+			if dbgRotation then
+				dbgShape:setRotation(dbgRotation)
+			end
 			osgCompositeShape:addChild(dbgShape)
 		end
 	end)
