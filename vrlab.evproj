@@ -19,18 +19,16 @@
   </parameter>
  </presentationParams>
  <resources dir="resources_vrlab">
-  <resource internal="false" id="6319d1f3-dc4-bb3-cba-247" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="Controller_Oculus_L.fbx">
+  <resource internal="false" id="6319d1f3-dc4-bb3-cba-247" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="Controller_Oculus_L.fbx">
    <filename value="Controller_Oculus_L.fbx"/>
-   <optimizations/>
+   <export includeTextures="false"/>
   </resource>
-  <resource internal="false" id="6319d1fb-46d-e51-f38-c66" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="Controller_Oculus_R.fbx">
-   <filename value="Controller_Oculus_R.fbx"/>
-   <optimizations/>
+  <resource internal="false" id="6319d1fb-46d-e51-f38-c66" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="hand_animations.fbx">
+   <filename value="hand_animations.fbx"/>
   </resource>
-  <resource internal="false" id="64ef44b8-326-e4c-e1e-bd2" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="scene.fbx">
+  <resource internal="false" id="64ef44b8-326-e4c-e1e-bd2" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="scene.fbx">
    <filename value="scene.fbx"/>
-   <source value="C:\Users\user\Desktop\laboratory\chemistry\scene.fbx"/>
-   <optimizations/>
+   <export includeTextures="false"/>
   </resource>
   <resource internal="false" id="6502edf9-1e7-71e-2ce-919" kind="script" local="true" forceExport="true" rawAssetsExport="false" name="main.lua">
    <filename value="main.lua"/>
@@ -38,18 +36,227 @@
   <resource internal="false" id="6502edf9-261-f36-367-744" kind="script" local="true" forceExport="true" rawAssetsExport="false" name="laboratory.lua">
    <filename value="laboratory.lua"/>
   </resource>
-  <resource internal="false" id="650ac251-aa5-1ec-bf9-192" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="scene_collision.fbx">
+  <resource internal="false" id="650ac251-aa5-1ec-bf9-192" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="scene_collision.fbx">
    <filename value="scene_collision.fbx"/>
-   <optimizations/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650aebe0-1f4-875-3e8-c7e" kind="script" local="true" forceExport="true" rawAssetsExport="false" name="physics.lua">
+   <filename value="physics.lua"/>
+  </resource>
+  <resource internal="false" id="650aebe0-cb2-179-ba7-1e7" kind="script" local="true" forceExport="true" rawAssetsExport="false" name="physics_util.lua">
+   <filename value="physics_util.lua"/>
+  </resource>
+  <resource internal="false" id="650afa4c-35a-32f-22a-3fa" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="bowl.fbx">
+   <filename value="bowl.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650afad1-8ea-223-559-982" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="bowl_collision.fbx">
+   <filename value="bowl_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-147-ff7-2e5-c14" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="glass.fbx">
+   <filename value="glass.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-1b8-18c-844-5ca" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="flask_mix.fbx">
+   <filename value="flask_mix.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-34f-732-4c7-861" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="pipetka.fbx">
+   <filename value="pipetka.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-3ba-8b7-8f4-a45" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="mixing_spoon_collision.fbx">
+   <filename value="mixing_spoon_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-3f6-c3e-681-2e6" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="glass_collision.fbx">
+   <filename value="glass_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-4a6-eae-6d8-a41" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="mixing_spoon.fbx">
+   <filename value="mixing_spoon.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-4ae-494-681-7cd" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="injector.fbx">
+   <filename value="injector.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-663-67c-b68-864" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="heating_flask.fbx">
+   <filename value="heating_flask.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-7ad-73f-961-292" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="flask.fbx">
+   <filename value="flask.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-7f7-ffe-96c-9ac" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="pincet.fbx">
+   <filename value="pincet.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-92f-d9c-5b9-a1d" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="injector_collision.fbx">
+   <filename value="injector_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-b3c-ba4-8af-682" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="flask_mix_collision.fbx">
+   <filename value="flask_mix_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-bc3-1ac-b2f-133" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="pincet_collision.fbx">
+   <filename value="pincet_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-e91-383-38d-bf1" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="heating_flask_collision.fbx">
+   <filename value="heating_flask_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-e94-ec6-a6c-d1a" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="pipetka_collision.fbx">
+   <filename value="pipetka_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b68-fb9-c22-a12-db7" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="flask_collision.fbx">
+   <filename value="flask_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-152-4f5-f52-f2c" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="stick_collision.fbx">
+   <filename value="stick_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-2c6-36d-699-695" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="tube.fbx">
+   <filename value="tube.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-3df-b13-a88-bf3" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="voronka_collision.fbx">
+   <filename value="voronka_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-4b1-8a1-7a7-edd" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="stick.fbx">
+   <filename value="stick.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-4c9-e67-9dd-46d" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="voronka.fbx">
+   <filename value="voronka.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650b0b6a-f2f-d77-9e7-ff7" kind="model" local="true" forceExport="false" rawAssetsExport="true" name="tube_collision.fbx">
+   <filename value="tube_collision.fbx"/>
+   <export includeTextures="false"/>
+  </resource>
+  <resource internal="false" id="650d720c-612-bbc-2f4-4bb" kind="script" local="true" forceExport="true" rawAssetsExport="false" name="graphics_util.lua">
+   <filename value="graphics_util.lua"/>
+  </resource>
+  <resource internal="false" id="650dc870-1f2-423-293-ff8" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="walls.png.ktx">
+   <filename value="walls.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/walls.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-21a-c55-684-9a3" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="Material _710_Base_color.png.ktx">
+   <filename value="Material _710_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/Material _710_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-25d-95f-8de-513" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="interface_mask.png.ktx">
+   <filename value="interface_mask.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/interface_mask.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-37a-f21-7a9-82b" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="machine_Base_color.png.ktx">
+   <filename value="machine_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/machine_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-5da-1af-66a-a63" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="wardrobe_tex_Base_color.png.ktx">
+   <filename value="wardrobe_tex_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/wardrobe_tex_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-632-491-978-315" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="2_(6).jpg.ktx">
+   <filename value="2_(6).jpg.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/2_(6).jpg.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-63d-589-786-927" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="roof_Base_color.png.ktx">
+   <filename value="roof_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/roof_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-763-2be-a91-28a" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="dors_main_Base_color.png.ktx">
+   <filename value="dors_main_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/dors_main_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-779-53a-cc7-e19" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="projector_tex.png.ktx">
+   <filename value="projector_tex.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/projector_tex.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-824-394-18a-5ea" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="wardrobe_normal.png.ktx">
+   <filename value="wardrobe_normal.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/wardrobe_normal.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-866-258-ecf-aa5" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="Material _2763_Base_color.png.ktx">
+   <filename value="Material _2763_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/Material _2763_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-8b2-e5e-5f7-cab" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="pipes_tex.png.ktx">
+   <filename value="pipes_tex.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/pipes_tex.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-92a-d3b-1f7-49a" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="tables_tex_Base_color.png.ktx">
+   <filename value="tables_tex_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/tables_tex_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-9dc-256-aba-23a" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="Material _2764_Base_color.png.ktx">
+   <filename value="Material _2764_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/Material _2764_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-9fb-d58-7c8-5a6" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="vents_Base_color.png.ktx">
+   <filename value="vents_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/vents_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-a41-ff6-6c3-91b" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="holder_Base_color.png.ktx">
+   <filename value="holder_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/holder_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-a4c-f47-d4b-1b4" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="burner_tex.png.ktx">
+   <filename value="burner_tex.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/burner_tex.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-a61-635-98c-b67" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="period.png.ktx">
+   <filename value="period.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/period.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-af2-765-9cc-4f7" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="staff_Base_color.png.ktx">
+   <filename value="staff_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/staff_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-c79-f58-73b-733" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="staff_Normal_OpenGL.png.ktx">
+   <filename value="staff_Normal_OpenGL.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/staff_Normal_OpenGL.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-dcd-c5f-4e4-ab1" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="flor.png.ktx">
+   <filename value="flor.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/flor.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-ec2-352-21e-b7f" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="interface.png.ktx">
+   <filename value="interface.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/interface.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-eee-18e-692-a31" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="canisters_Base_color.png.ktx">
+   <filename value="canisters_Base_color.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/canisters_Base_color.png.ktx"/>
+  </resource>
+  <resource internal="false" id="650dc870-f5e-b6e-34f-b11" kind="image" local="false" forceExport="false" rawAssetsExport="true" name="stickers.png.ktx">
+   <filename value="stickers.png.ktx"/>
+   <source value="${PROJECT_RESOURCES_DIR}/textures/stickers.png.ktx"/>
+  </resource>
+  <resource internal="false" id="651ebcd1-e83-5d8-1c8-481" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="all_3.mp3">
+   <filename value="all_3.mp3"/>
   </resource>
  </resources>
  <reactors>
   <order>
+   <item id="651ebe5a-6989-715c-42ed"/>
+   <item id="65118ecc-a15f-81ae-9ca3"/>
    <item id="TrackingSystem"/>
    <item id="System"/>
    <item id="Viewer"/>
+   <item id="650ac22f-2983-35a3-c123"/>
+   <item id="650afaae-dadd-dad4-e718"/>
    <item id="Scene"/>
    <item id="5dfb8456-1259-d39d-a18e"/>
+   <item id="650ae73d-2cd8-4517-12a4"/>
   </order>
   <reactor id="Scene" name="Scene" type="node.scene" enabled="true">
    <parameter name="nodeMask">
@@ -57,10 +264,8 @@
     <field name="unchangedBits" value="0x00000000"/>
    </parameter>
    <parameter name="children">
-    <item value="5dea528a-4c29-f619-27a2"/>
-    <item value="5dea528a-9764-c1f2-ae1e"/>
+    <item value="650aed3a-c16b-2361-ad79"/>
     <item value="64ef44af-57a3-b7de-c98f"/>
-    <item value="650ac22f-2983-35a3-c123"/>
    </parameter>
    <view expanded="true"/>
   </reactor>
@@ -197,8 +402,9 @@
    <parameter name="deviceType" value="controller_right"/>
    <parameter name="autoShow" value="true"/>
    <parameter name="autoHide" value="true"/>
+   <view expanded="true"/>
   </reactor>
-  <reactor id="5dee1cc9-a9fa-9574-9aaf" name="intersector_right" type="node.intersector" enabled="true">
+  <reactor id="5dee1cc9-a9fa-9574-9aaf" name="intersector_right" type="node.intersector" enabled="false">
    <parameter name="nodeMask">
     <field name="mask" value="0x0000001F"/>
     <field name="unchangedBits" value="0x00000000"/>
@@ -215,7 +421,7 @@
    </parameter>
    <view expanded="true"/>
   </reactor>
-  <reactor id="5dee1cdb-3a9d-29b8-45d5" name="intersector_transform_right" type="node.transform" enabled="true">
+  <reactor id="5dee1cdb-3a9d-29b8-45d5" name="intersector_transform_right" type="node.transform" enabled="false">
    <parameter name="nodeMask">
     <field name="mask" value="0x0000001F"/>
     <field name="unchangedBits" value="0x00000000"/>
@@ -240,7 +446,7 @@
    </parameter>
    <view expanded="true"/>
   </reactor>
-  <reactor id="5dee23c4-19c5-8ad7-8c8f" name="intersector_left" type="node.intersector" enabled="true">
+  <reactor id="5dee23c4-19c5-8ad7-8c8f" name="intersector_left" type="node.intersector" enabled="false">
    <parameter name="nodeMask">
     <field name="mask" value="0x0000001F"/>
     <field name="unchangedBits" value="0x00000000"/>
@@ -257,7 +463,7 @@
    </parameter>
    <view expanded="true"/>
   </reactor>
-  <reactor id="5dee23c4-fd6b-f57a-47a3" name="intersector_transform_left" type="node.transform" enabled="true">
+  <reactor id="5dee23c4-fd6b-f57a-47a3" name="intersector_transform_left" type="node.transform" enabled="false">
    <parameter name="nodeMask">
     <field name="mask" value="0x0000001F"/>
     <field name="unchangedBits" value="0x00000000"/>
@@ -285,8 +491,8 @@
   <reactor id="5dfb8456-1259-d39d-a18e" name="manipulator_vr" type="camera_manipulator" enabled="true">
    <parameter name="kind" value="vr"/>
    <parameter name="homeEye">
-    <field name="x" value="-0.9692560454399"/>
-    <field name="y" value="-6.9391242544535"/>
+    <field name="x" value="-0.97"/>
+    <field name="y" value="-11"/>
     <field name="z" value="1.6"/>
    </parameter>
    <parameter name="homeCenter">
@@ -328,8 +534,473 @@
    <parameter name="gpuInstancing" value="auto"/>
    <parameter name="gpuInstancesMinCount" value="50"/>
    <parameter name="model" value="64ef44b8-326-e4c-e1e-bd2"/>
+   <view expanded="true"/>
   </reactor>
   <reactor id="650ac22f-2983-35a3-c123" name="environment/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000000F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="off"/>
+   <parameter name="rig" value="off"/>
+   <parameter name="morph" value="off"/>
+   <parameter name="gpuInstancing" value="off"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650ac251-aa5-1ec-bf9-192"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650ae73d-2cd8-4517-12a4" name="manipulator_trackball" type="camera_manipulator" enabled="true">
+   <parameter name="kind" value="trackball"/>
+   <parameter name="homeEye">
+    <field name="x" value="-0.97"/>
+    <field name="y" value="-11"/>
+    <field name="z" value="1.6"/>
+   </parameter>
+   <parameter name="homeCenter">
+    <field name="x" value="0"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1.6"/>
+   </parameter>
+   <parameter name="homeUp">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="autoComputeHomePosition" value="false"/>
+  </reactor>
+  <reactor id="650aed3a-c16b-2361-ad79" name="vr_controllers" type="node.transform" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="5dea528a-4c29-f619-27a2"/>
+    <item value="5dea528a-9764-c1f2-ae1e"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650afa46-bb44-8314-c424" name="obj/bowl/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.02"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650afad1-8ea-223-559-982"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650afaa5-71c9-cceb-7f5c" name="obj/bowl/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.02"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650afa4c-35a-32f-22a-3fa"/>
+  </reactor>
+  <reactor id="650afaae-dadd-dad4-e718" name="objects" type="node.transform" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="650c1e74-a25f-69de-6282"/>
+    <item value="650c1e72-6b7c-3982-6c1c"/>
+    <item value="650c0968-92f6-2385-c81d"/>
+    <item value="650c0966-cdc3-da6e-2c97"/>
+    <item value="650c0931-f1aa-569a-d2ae"/>
+    <item value="650c092f-3994-342d-e5bc"/>
+    <item value="650c08ec-83ce-94ef-2147"/>
+    <item value="650c08ea-549a-3ab7-a991"/>
+    <item value="650c087e-38d7-3811-e34b"/>
+    <item value="650c087b-87be-6469-a524"/>
+    <item value="650b107a-d8d4-817e-ffc9"/>
+    <item value="650b1078-87c5-2ce3-a7ab"/>
+    <item value="650b105c-99eb-11cf-9f84"/>
+    <item value="650b105b-9468-2528-deb8"/>
+    <item value="650b103c-289e-8ad5-c541"/>
+    <item value="650b103b-5e9c-84be-3ee1"/>
+    <item value="650b1003-42d6-c7d6-e64d"/>
+    <item value="650b1004-abde-6b54-3733"/>
+    <item value="650b0c2e-ff14-47d8-dd3a"/>
+    <item value="650b0c2d-6ceb-e32d-ddc3"/>
+    <item value="650b0b74-8ac8-e427-3713"/>
+    <item value="650b0b7e-6a2d-96ad-9e1a"/>
+    <item value="650afaa5-71c9-cceb-7f5c"/>
+    <item value="650afa46-bb44-8314-c424"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+  </reactor>
+  <reactor id="650b0b74-8ac8-e427-3713" name="obj/flask/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.05"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-7ad-73f-961-292"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b0b7e-6a2d-96ad-9e1a" name="obj/flask/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.05"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-fb9-c22-a12-db7"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b0c2d-6ceb-e32d-ddc3" name="obj/flask_mix/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.04"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-1b8-18c-844-5ca"/>
+  </reactor>
+  <reactor id="650b0c2e-ff14-47d8-dd3a" name="obj/flask_mix/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.04"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-b3c-ba4-8af-682"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b1003-42d6-c7d6-e64d" name="obj/glass/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.05"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-147-ff7-2e5-c14"/>
+  </reactor>
+  <reactor id="650b1004-abde-6b54-3733" name="obj/glass/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.05"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-3f6-c3e-681-2e6"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b103b-5e9c-84be-3ee1" name="obj/heating_flask/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-e91-383-38d-bf1"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b103c-289e-8ad5-c541" name="obj/heating_flask/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-663-67c-b68-864"/>
+  </reactor>
+  <reactor id="650b105b-9468-2528-deb8" name="obj/injector/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.08"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-92f-d9c-5b9-a1d"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b105c-99eb-11cf-9f84" name="obj/injector/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.08"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-4ae-494-681-7cd"/>
+  </reactor>
+  <reactor id="650b1078-87c5-2ce3-a7ab" name="obj/mixing_spoon/collision" type="node.model" enabled="true">
    <parameter name="nodeMask">
     <field name="mask" value="0x00000010"/>
     <field name="unchangedBits" value="0x00000000"/>
@@ -355,11 +1026,335 @@
    <parameter name="morph" value="auto"/>
    <parameter name="gpuInstancing" value="auto"/>
    <parameter name="gpuInstancesMinCount" value="50"/>
-   <parameter name="model" value="650ac251-aa5-1ec-bf9-192"/>
+   <parameter name="model" value="650b0b68-3ba-8b7-8f4-a45"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650b107a-d8d4-817e-ffc9" name="obj/mixing_spoon/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-4a6-eae-6d8-a41"/>
+  </reactor>
+  <reactor id="650c087b-87be-6469-a524" name="obj/pincet/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.13"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-bc3-1ac-b2f-133"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650c087e-38d7-3811-e34b" name="obj/pincet/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.13"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-7f7-ffe-96c-9ac"/>
+  </reactor>
+  <reactor id="650c08ea-549a-3ab7-a991" name="obj/pipetka/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.11"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-e94-ec6-a6c-d1a"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650c08ec-83ce-94ef-2147" name="obj/pipetka/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.11"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b68-34f-732-4c7-861"/>
+  </reactor>
+  <reactor id="650c092f-3994-342d-e5bc" name="obj/stick/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-152-4f5-f52-f2c"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650c0931-f1aa-569a-d2ae" name="obj/stick/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-4b1-8a1-7a7-edd"/>
+  </reactor>
+  <reactor id="650c0966-cdc3-da6e-2c97" name="obj/tube/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-f2f-d77-9e7-ff7"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650c0968-92f6-2385-c81d" name="obj/tube/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-2c6-36d-699-695"/>
+  </reactor>
+  <reactor id="650c1e72-6b7c-3982-6c1c" name="obj/voronka/collision" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.08"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-3df-b13-a88-bf3"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="650c1e74-a25f-69de-6282" name="obj/voronka/model" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x00000010"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="-0.08"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="650b0b6a-4c9-e67-9dd-46d"/>
+  </reactor>
+  <reactor id="65118ecc-a15f-81ae-9ca3" name="hand_right_take" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="651ebe5a-6989-715c-42ed" name="audio/background" type="audio" enabled="true">
+   <parameter name="audioResource" value="651ebcd1-e83-5d8-1c8-481"/>
+   <parameter name="volume" value="1"/>
+   <parameter name="pan" value="0"/>
+   <parameter name="playMode" value="loop"/>
+   <parameter name="liveDecoding" value="true"/>
   </reactor>
  </reactors>
  <exportParameters last="apk">
-  <parameters format="apk" filename="/root/EligoVision/github/evtoolbox_examples/vr/laboratory.apk" appName="laboratory" appId="ru.eligovision.laboratory" arch="" version="1.0" build="1" configurationFile="" appIconPath="C:/Program Files/EligoVision Toolbox 3.4.10 Advanced/studio_data//AppIcon.png" loadingImagePath="C:/Program Files/EligoVision Toolbox 3.4.10 Advanced/studio_data//LaunchImage.png" category="" copyright="" supportedOrientations="6" usageHardwareCamera="optional" usageARCore="optional" gradleOpt="" selectedPresetId="openxr_oculus" abis="arm64-v8a" targetApi="33">
+  <parameters format="apk" filename="/root/EligoVision/github/evtoolbox/vrlab/vrlab.apk" appName="VR Lab Quest" appId="ru.eligovision.vrlab" arch="" version="1.0" build="1" configurationFile="" appIconPath="/root/EligoVision/git/ev_evi/data/ev_studio/images/warning.png" loadingImagePath="/root/EligoVision/git/ev_evi/data/ev_studio/images/question.png" category="" copyright="" supportedOrientations="6" usageHardwareCamera="optional" usageARCore="optional" gradleOpt="" selectedPresetId="openxr_pico3" abis="arm64-v8a" targetApi="33">
    <presets>
     <preset id="user" name="User Preset">
      <files>
@@ -371,6 +1366,8 @@
     </preset>
    </presets>
   </parameters>
+  <parameters format="app" filename="/root/EligoVision/github/evtoolbox/vrlab/vrlab.app" appName="vrlab - EVI macOS App" appId="ru.CompanyName.vrlab" arch="" version="1.0" build="1" configurationFile="" appIconPath="/root/EligoVision/git/ev_evi/build/src/ev_studio/studio_data//AppIcon.png" loadingImagePath="/root/EligoVision/git/ev_evi/build/src/ev_studio/studio_data//LaunchImage.png" category="None" copyright="Copyright 2019 CompanyName. All rights reserved." supportedOrientations="1" frameMode="window" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" createInstaller="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" runAfterExport="false" retinaSupport="true" bundleName="vrlab - EVI macOS App" cameraDescription="Дополненная реальность ждет!"/>
+  <parameters format="dir" filename="/root/EligoVision/github/evtoolbox/vrlab/vrlab.package" appName="vrlab - Directory Package" appId="vrlab" arch="" version="1.0" build="1" configurationFile="" appIconPath="/root/EligoVision/git/ev_evi/build/src/ev_studio/studio_data//AppIcon.png" loadingImagePath="/root/EligoVision/git/ev_evi/build/src/ev_studio/studio_data//LaunchImage.png" category="" copyright="" supportedOrientations="1" frameMode="window" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" createInstaller="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" runAfterExport="false"/>
   <parameters format="exe" filename="C:/Users/user/Documents/VR_Controllers.exe" appName="VR_Controllers - EVI Windows App" appId="VR.Controllers" arch="x64" version="1.0" build="1" configurationFile="" appIconPath="C:/Program Files/EligoVision Toolbox 3.4.10 Advanced/studio_data//AppIcon.ico" loadingImagePath="C:/Program Files/EligoVision Toolbox 3.4.10 Advanced/studio_data//LaunchImage.png" category="" copyright="" supportedOrientations="1" frameMode="window" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" createInstaller="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" runAfterExport="false" targetPlatform="1"/>
  </exportParameters>
  <workspace>
