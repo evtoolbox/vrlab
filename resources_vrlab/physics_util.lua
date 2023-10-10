@@ -1,9 +1,7 @@
 -- Copyright (C) 2023 EligoVision Ltd.
 -- File: physics_util.lua
 
-local logger = set_lua_logger("viexp.util")
-
-local zeroQuat = bt.Quaternion.getIdentity()
+local logger = set_lua_logger("vrlab.physics_util")
 
 local function createCollisionShape(node, createDebugNode)
 	local compoundShape = bt.CompoundShape()
@@ -17,7 +15,9 @@ local function createCollisionShape(node, createDebugNode)
 		local bb = geometry:getBoundingBox()
 		local v1, v2 = bb:min(), bb:max()
 
-		local internalMatrix = osg.computeLocalToWorld(geometry:getParentalNodePaths(node):at(0))
+		local pnp = geometry:getParentalNodePaths(node):at(0)
+		local internalMatrix = osg.computeLocalToWorld(pnp)
+
 		-- v1, v2 = v1*internalMatrix, v2*internalMatrix
 
 		local dims = (v2 - v1)/2
@@ -27,12 +27,11 @@ local function createCollisionShape(node, createDebugNode)
 		dims:z(math.abs(dims:z()))
 		-- logger:debug("dims = " .. dims:x(), ", ", dims:y(), ", ", dims:z())
 
-
 		center = center*internalMatrix
 		local rotation = internalMatrix:getRotate()
 		local dbgRotation = rotation
 
-		local physShape, dgbShape
+		local collisionShape, dgbShape
 
 		-- Different shapes
 		if string.find(name, "CylinderX") then

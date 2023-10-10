@@ -5,7 +5,7 @@ local logger = set_lua_logger("vrlab.PhysicsContext")
 
 PhysicsContext = class("PhysicsContext")
 	:field("collisionConfiguration")
-	:field("dispatcher")
+	:field("collisionDispatcher")
 	:field("pairCache")
 	:field("constraintSolver")
 	:field("world")
@@ -20,10 +20,10 @@ PhysicsContext = class("PhysicsContext")
 function PhysicsContext:_construct()
 
 	self.collisionConfiguration	= bt.DefaultCollisionConfiguration()
-	self.dispatcher				= bt.CollisionDispatcher(self.collisionConfiguration)
+	self.collisionDispatcher	= bt.CollisionDispatcher(self.collisionConfiguration)
 	self.pairCache				= bt.AxisSweep3(bt.Vector3(-100.0, -100.0, -100.0), bt.Vector3(100.0, 100.0, 100.0))
 	self.constraintSolver		= bt.SequentialImpulseConstraintSolver()
-	self.world					= bt.DiscreteDynamicsWorld(self.dispatcher, self.pairCache, self.constraintSolver, self.collisionConfiguration)
+	self.world					= bt.DiscreteDynamicsWorld(self.collisionDispatcher, self.pairCache, self.constraintSolver, self.collisionConfiguration)
 	self.world:setGravity(bt.Vector3(0.0, 0.0, -9.8))
 
 	-- Actor Shape

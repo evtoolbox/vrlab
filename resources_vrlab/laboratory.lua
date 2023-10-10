@@ -3,7 +3,7 @@
 
 require "physics.lua"
 
-local DEBUG_PHYSICS = true
+local DEBUG_PHYSICS = false
 
 local logger = set_lua_logger("vrlab.laboratory")
 
@@ -14,8 +14,8 @@ local graphicsUtil = require("graphics_util.lua")
 local sceneGroup = reactorController:getReactorByName("Scene").node
 
 -- add collision (physical) objects
+local planeObject = bt.CollisionObject()
 do
-	local planeObject = bt.CollisionObject()
 	planeObject:setCollisionShape(bt.StaticPlaneShape(bt.Vector3(0.0, 0.0, 1.0), 0.0))
 	planeObject:setFriction(1.0)
 	physicsCtx.world:addCollisionObject(planeObject)
@@ -119,13 +119,24 @@ initialTestTransform:setRotation(bt.Quaternion(bt.Vector3(0.0, 1.0, 0.0), math.r
 
 local rigidBodyTransform = bt.Transform.getIdentity()
 
+
 local time
-bus:subscribe(function()
+sceneGroup:setEventCallback(osg.NodeCallback(function()
+--bus:subscribe(function()
 	local dt = time and (evi.getCurrentTimeNs()*1e-9 - time) or 0.0
 	time = evi.getCurrentTimeNs()*1e-9			-- nanoseconds to seconds
 
 	local ltp = leftController[DeviceButton.JOYSTICK].touchPosition
+	if not ltp then
+		-- Try touchpad instead of joystick
+		ltp = leftController[DeviceButton.TOUCHPAD].touchPosition
+	end
+
 	local rtp = rightController[DeviceButton.JOYSTICK].touchPosition
+	if not rtp then
+		-- Try touchpad instead of joystick
+		rtp = rightController[DeviceButton.TOUCHPAD].touchPosition
+	end
 
 	-- Position or shift (right controller's joystick)
 	if ltp then
@@ -148,23 +159,53 @@ bus:subscribe(function()
 				lastRotateDirection = r
 			end
 		end
+	else
+		lastRotateDirection = 0.0
 	end
 
 	manipulatorReactor:updateHomeTransformation()
 
 	physicsCtx:frame(time)
 
+	local numManifolds = physicsCtx.collisionDispatcher:getNumManifolds()
+	for i = 0, numManifolds - 1 do
+		local contactManifold = physicsCtx.collisionDispatcher:getManifoldByIndexInternal(i)
+		local obA = contactManifold:getBody0()
+		local obB = contactManifold:getBody1()
+		local numContacts = contactManifold:getNumContacts()
+
+		if numContacts > 0 and (obA == planeObject or obB == planeObject) then
+	-- 		-- test (remove it)
+			-- 		-- logger:error("Reactivation test!")
+			local rb = bt.RigidBody.upcast(obA) or bt.RigidBody.upcast(obB)
+			if rb and rb:getMotionState() then
+				rb:getMotionState():setWorldTransform(initialTestTransform)
+				rb:setWorldTransform(initialTestTransform)
+--				logger:error("Reactivation test:", numContacts)
+			end
+
+
+			-- for j = 0, numContacts - 1 do
+			-- 	local pt = contactManifold:getContactPoint(j)
+			-- 	logger:error("Contact distance = ", pt:getDistance())
+			-- end
+		end
+
+	end
+
+
 	for name, obj in pairs(g_ObjectsData) do
 		if obj.rb:isActive() then
 			obj.motionState:getWorldTransform(rigidBodyTransform)
 			obj.transform:setMatrix(bt.bt2osg(rigidBodyTransform))
 		else
-			-- test (remove it)
-			-- logger:error("Reactivation test!")
-			obj.motionState:setWorldTransform(initialTestTransform)
-			obj.rb:setWorldTransform(initialTestTransform)
-			obj.rb:activate(true)
+		-- 	-- test (remove it)
+		-- 	-- logger:error("Reactivation test!")
+		-- 	obj.motionState:setWorldTransform(initialTestTransform)
+		-- 	obj.rb:setWorldTransform(initialTestTransform)
+		-- 	obj.rb:activate(true)
 		end
 	end
 
-end)
+	return true	-- for EventCallback
+end))
