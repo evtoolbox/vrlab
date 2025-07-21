@@ -1,0 +1,5 @@
+local scene = reactorController:getReactorByName("Scene")
+local ss = scene.node:getOrCreateStateSet()
+ss:setAttributeAndModes(osg.CullFace(osg.CullFace.BACK), osg.StateAttribute.ON)
+ss:setMode(GLenum.GL_LIGHTING, osg.StateAttribute.OFF)
+ss:setMode(GLenum.GL_LIGHT0, osg.StateAttribute.OFF)
